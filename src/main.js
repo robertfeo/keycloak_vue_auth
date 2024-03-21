@@ -1,10 +1,12 @@
-import './assets/main.css'
+import './assets/main.css';
 
-import { createPinia } from 'pinia'
-import { createApp } from 'vue'
+import Wind from '@/presets/wind';
+import { createPinia } from 'pinia';
+import PrimeVue from 'primevue/config';
+import { createApp } from 'vue';
 
-import App from './App.vue'
-import router from './router'
+import App from './App.vue';
+import router from './router';
 
 const app = createApp(App)
 

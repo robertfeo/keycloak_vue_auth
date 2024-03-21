@@ -1,4 +1,7 @@
 <script setup>
+
+import Button from 'primevue/button';
+
 defineProps({
   msg: {
     type: String,
@@ -13,6 +16,7 @@ defineProps({
     <h3>
       You’ve successfully created a project with
     </h3>
+    <Button label="Submit"></Button>
   </div>
 </template>
 
