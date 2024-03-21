@@ -20,9 +20,12 @@
     "@vitejs/plugin-vue": "^5.0.4",
     "@vitejs/plugin-vue-jsx": "^3.1.0",
     "@vue/eslint-config-prettier": "^8.0.0",
+    "autoprefixer": "latest",
     "eslint": "^8.49.0",
     "eslint-plugin-vue": "^9.17.0",
+    "postcss": "latest",
     "prettier": "^3.0.3",
+    "tailwindcss": "latest",
     "vite": "^5.1.6"
   }
 }
